@@ -5,5 +5,5 @@ set pm3d
 set zlabel 'Throughput (MB/s)' rotate parallel
 set xlabel 'Stride (x8 bytes)' rotate parallel
 set ylabel 'Size' rotate parallel
-splot '<tail -n +3 results.txt' matrix rowheaders columnheaders with lines notitle
+splot '<tail -n +3 results.txt | head -n -1' matrix rowheaders columnheaders with lines notitle
 exit
