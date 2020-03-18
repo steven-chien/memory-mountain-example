@@ -5,7 +5,7 @@
 #include "fcyc2.h" /* measurement routines */
 #include "clock.h" /* routines to access the cycle counter */
 
-#define MINBYTES (1 << 13)  /* First working set size */
+#define MINBYTES (1 << 14)  /* First working set size */
 //#define MAXBYTES (1 << 27)  /* Last working set size */
 #define MAXBYTES (1 << 29)  /* Last working set size */
 //#define MAXSTRIDE 15        /* Stride x8 bytes */
