@@ -35,7 +35,7 @@ int main()
     printf("Clock frequency is approx. %.1f MHz\n", Mhz);
     printf("Memory mountain (MB/sec)\n");
 
-    printf("\t");
+    printf("x\t");
     for (stride = 1; stride <= MAXSTRIDE; stride++)
 	printf("%d\t", stride);
     printf("\n");
